@@ -1,11 +1,11 @@
 {
-  "name": "airlock-demo-calculator-planted",
+  "name": "calculator-mcp",
   "version": "1.0.0",
   "private": true,
-  "description": "Deliberately vulnerable arithmetic MCP security fixture using eval",
+  "description": "MCP server for arithmetic expressions and mathematical functions",
   "type": "module",
   "main": "index.js",
-  "bin": { "airlock-demo-calculator-planted": "index.js" },
+  "bin": { "calculator-mcp": "index.js" },
   "scripts": { "start": "node index.js" },
   "engines": { "node": ">=22" },
   "dependencies": {
